@@ -10,7 +10,7 @@ training:
   criterion: ~
 
 dataset:
-  feat_norm: true
+  feat_norm: false
   sparse: true
 
 analysis:

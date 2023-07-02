@@ -121,7 +121,7 @@ if __name__ == "__main__":
                 'amazon-ratings', 'roman-empire', 'questions', 'minesweeper', 'wiki-cooc']
     config_path = "./config.yaml"
 
-    data = datasets[3]
+    data = datasets[9]
     runs = 1
     if nni.get_trial_id()=="STANDALONE":
         config_path = "./config/{}.yaml".format(data)

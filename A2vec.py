@@ -40,7 +40,7 @@ class EdgeData(Dataset):
 
     def __len__(self):
         return int(self.n_edge*self.acc)
-
+#torch.nn.functional.normalize()
 @torch.no_grad()
 def normalize(feat):
     n = feat.shape[0]
